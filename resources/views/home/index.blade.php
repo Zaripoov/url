@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="{{ asset('bootstrap/css/bootstrap-theme.min.css')}}">
 </head>
 <body>
+
 <div class="container">
     <form method="POST">
         @csrf

@@ -7,6 +7,16 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+
+## Задание
+
+Необходимо реализовать сервис по сокращению ссылок с использованием фреймворка Laravel:
+
+1. Сервис должен состоять из 1 страницы с формой ввода: поле для ввода ссылки и кнопка для отправки формы.
+2. Реализовать валидацию формы в виде проверки обязательного ввода ссылки.
+3. Реализовать отправку формы на сервер **асинхронным** запросом через JavaScript. Любой ответ сервера корректно обрабатывать и отображать.
+4. Реализовать сокращение ссылки на сервере и возврат сокращенной ссылки на клиент. При переходе по ссылке должно быть перенаправление на исходный адрес.
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:

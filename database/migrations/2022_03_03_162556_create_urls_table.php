@@ -13,8 +13,10 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('homes', function (Blueprint $table) {
+        Schema::create('urls', function (Blueprint $table) {
             $table->id();
+            $table->string('url');
+            $table->string('abbreviated_url');
             $table->timestamps();
         });
     }

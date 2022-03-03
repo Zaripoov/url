@@ -14,3 +14,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::post('/store', [App\Http\Controllers\HomeController::class, 'store'])->name('home.store');
+Route::get('/{abbreviated_url}', [App\Http\Controllers\HomeController::class, 'url'])->name('home.url');
